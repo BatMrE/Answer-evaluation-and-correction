@@ -149,8 +149,8 @@ def conventions_score(text):
     sentiment_score = sid.polarity_scores(" ".join(filtered_tokens))
 
     # Conventions score calculation
-    conventions_score = (sentiment_score['pos'] - sentiment_score['neg']) / (sentiment_score['pos'] + sentiment_score['neg'] + sentiment_score['neu'])
+    score = (sentiment_score['pos'] - sentiment_score['neg']) / (sentiment_score['pos'] + sentiment_score['neg'] + sentiment_score['neu'])
 
-    return conventions_score
+    return score
 
    
