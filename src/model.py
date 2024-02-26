@@ -43,4 +43,4 @@ def initialize_rag_chain(vectorstore):
 disable_ssl_verification()
 
 # Set OpenAI API key
-set_openai_api_key("your-api-key")
+set_openai_api_key("your-api-keys")
