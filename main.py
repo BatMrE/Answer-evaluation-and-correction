@@ -1,5 +1,5 @@
-from operations import *
-from data import essay_text_list
+from src.operations import *
+from data.dummy_data import essay_text_list
 
 def analyze_essay(essay_text):
     # Find grammar errors
@@ -34,7 +34,6 @@ def analyze_essay(essay_text):
     convention_score = conventions_score(essay_text)
     print("Conventions Score:", convention_score)
 
-    print("______________________________________________________________ ")
 
 # Analyze each essay text
 for essay_text in essay_text_list:
