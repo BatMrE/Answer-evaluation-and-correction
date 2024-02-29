@@ -22,7 +22,7 @@ Run the Streamlit application using the following command:
 streamlit run streamlit_ui.py
 ```
 
-After running the application, you will receive a localhost endpoint in your command line or terminal. Open this endpoint in your browser to view the user interface.
+Once the application is running, you will receive a localhost endpoint in your command line or terminal. Open this endpoint in your web browser to access and interact with the user interface.
 
 ## Results
 
