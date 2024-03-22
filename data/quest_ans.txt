@@ -1,0 +1,439 @@
+questions = [
+    "What is migration, and why did humans historically not move far from their birthplaces?",
+    "Can you describe the mass movement of humans out of Eastern Africa?",
+    "How did climate change potentially influence human migration?",
+    "How did migration contribute to the spread of Christianity and Islam?",
+    "What are the different types of migrants, and how are they tracked?",
+    "What are Ravenstein's laws of migration, and are they still relevant?"
+]
+
+answers = [
+    "Historically, migration, defined as a permanent move to a new location, was limited due to the perilous nature of long-distance travel. Humans tended to remain close to their birthplaces due to the risks involved until approximately 65,000 years ago, when a mass movement of humans out of Eastern Africa began, eventually leading to the settlement of diverse regions across the globe.",
+    "A significant number of individuals embarked on a mass movement from Eastern Africa to various parts of the world, marking a pivotal moment in human history. This migration event, which began approximately 65,000 years ago, initiated the settlement of diverse regions across the globe. While the specific reasons for this migration are debated among scientists, periodic climate changes are believed to have played a significant role.",
+    "Periodic climate changes are believed to have played a major role in influencing human migration patterns throughout history. These shifts in climate may have acted as push factors, prompting populations to seek more hospitable environments. The movement of humans in response to changing climates contributed to the spread of populations to new regions and the colonization of diverse habitats.",
+    "Migration played a crucial role in facilitating the spread of Christianity and Islam by enabling the movement of people across regions. In the case of Christianity, the Roman Empire served as a conduit for the dissemination of religious ideas along established trade routes, allowing for cultural exchange and the adoption of new beliefs. Similarly, the migration of Islam's prophet and subsequent movements of soldiers, merchants, and traders contributed to the expansion of Islamic civilization across North Africa, Europe, and Southeast Asia.",
+    "Migrants encompass various categories, including immigrants, emigrants, and various subcategories such as guest workers, students, tourists, and asylum seekers. Monitoring these movements involves leveraging government databases, international agencies, and non-profit organizations. However, tracking emigration and return migration poses logistical challenges, often resulting in underreported data and discrepancies in tracking methodologies.",
+    "Ravenstein's laws of migration, proposed in 1885, delineate fundamental principles governing migration patterns. While several of these laws remain applicable in contemporary migration studies, such as the tendency for most migrants to move short distances, others have undergone modification or require contextual interpretation. The advent of modern transportation, for example, has altered the dynamics of long-distance migration, necessitating a nuanced understanding of migration patterns beyond Ravenstein's original framework."
+]
+
+improved_answers = [
+    "Historically, migration, defined as a permanent move to a new location, was limited due to the perilous nature of long-distance travel. Humans tended to remain close to their birthplaces due to the risks involved until approximately 65,000 years ago, when a mass movement of humans out of Eastern Africa began, eventually leading to the settlement of diverse regions across the globe.",
+    "The mass movement of humans out of Eastern Africa approximately 65,000 years ago marked a crucial turning point in human history. This migration event saw the dispersal of humans to different parts of the world, setting the stage for the diverse populations we see today. While the exact motives behind this migration are subject to debate, climatic shifts are considered a significant factor.",
+    "Periodic changes in climate have likely exerted a significant influence on human migration over the ages. Fluctuations in environmental conditions may have compelled populations to migrate in search of more favorable habitats and resources. As a result, human migration has been intricately linked to the ebb and flow of climatic conditions across different regions.",
+    "Migration served as a vital catalyst in the dissemination of Christianity and Islam, fostering the exchange of religious ideas and cultures across diverse regions. Within the Roman Empire, the movement of people along trade routes facilitated the spread of Christianity, leading to its adoption in various territories. Likewise, Islam's expansion was propelled by the migration of its prophet and subsequent movements of individuals, including soldiers and traders, fostering the spread of Islamic beliefs and practices across continents.",
+    "Migrants represent a diverse spectrum of individuals, including immigrants, emigrants, and various subcategories such as guest workers, students, tourists, and asylum seekers. Monitoring these movements involves leveraging government databases, international agencies, and non-profit organizations. However, tracking emigration and return migration poses logistical challenges, often resulting in underreported data and discrepancies in tracking methodologies.",
+    "Ravenstein's laws of migration, proposed in 1885, delineate fundamental principles governing migration patterns. While several of these laws remain applicable in contemporary migration studies, such as the tendency for most migrants to move short distances, others have undergone modification or require contextual interpretation. The advent of modern transportation, for example, has altered the dynamics of long-distance migration, necessitating a nuanced understanding of migration patterns beyond Ravenstein's original framework."
+]
+
+
+
+
+questions = [
+    "What are some of the impacts of migration on global patterns?",
+    "How has the number of international migrants changed over the years?",
+    "Which regions have the highest number of migrants?",
+    "What are the main reasons why people migrate internationally?",
+    "Can you provide examples of countries that have experienced significant changes in migration patterns?",
+    "What are some factors that contribute to migration within Europe?",
+    "How has the European Union facilitated movement within its member states?",
+    "What are some challenges faced by migrants attempting to enter Europe?",
+    "How do northern and southern European states differ in their approach to border security?",
+    "What are the long-term implications of migration for Europe?"
+]
+
+# Step 2: Answers with Errors
+answers = [
+    "Some impacts of migration include new diseases, new cooking styles, and sports. Migrants bring new idea, new genetic footprints which can lead to economic opportunities.",
+    "The number of international migrants reached 244 million in 2015, representing a 44 percent increase since 2000. The growth of global population has only increased by 20 percent during the same period.",
+    "Most migrants originate from Europe or Asia, with the largest numbers coming from India, Mexico, Russia, and China.",
+    "Migrants move from low/middle income countries to high income countries for better opportunities. Economic opportunity is the most common driving force.",
+    "Spain was a major recipient of immigrants from 2000-2008, but when its economy decreased, people began to leave.",
+    "Movement within Europe is mostly from West to East.",
+    "The EU facilitates free movement of capital, products, and services, but not people.",
+    "More people from nearby Africa and the Middle East are trying to enter Europe, increasing movement and mobility.",
+    "Northern member states mistrust the vetting process put into place by southern and eastern European states.",
+    "Denmark and Sweden have increased border security, despite being signatories to the agreement."
+]
+
+# Step 3: Improved Answers
+improved_answers = [
+    "Migration has various impacts globally, including the diffusion of new ideas, genetic diversity, diseases, cuisines, and sports, thereby contributing to economic opportunities and cultural enrichment.",
+    "The number of international migrants reached 244 million in 2015, marking a significant 44 percent increase since 2000, outpacing the global population growth of 20 percent during the same period.",
+    "The majority of migrants originate from Europe or Asia, with India, Mexico, Russia, and China being the primary source countries.",
+    "Migrants predominantly move from lower to higher income countries in pursuit of better job prospects, higher incomes, and overall improved opportunities.",
+    "Spain experienced a surge in immigration from 2000-2008, but economic downturn led to a reverse trend as people began leaving the country.",
+    "Movement within Europe predominantly occurs from East to West, reflecting various economic and social factors.",
+    "The EU facilitates seamless movement of people across its member states through agreements like the Schengen Agreement, ensuring freedom of movement.",
+    "Increased migration to Europe from Africa and the Middle East is driven by factors such as economic disparity, conflict, and educational opportunities, leading to complex migration dynamics.",
+    "Northern and southern European states exhibit differing approaches to border security, with mistrust and concerns over vetting processes posing challenges to regional integration.",
+    "Despite challenges, the European experiment in integration remains pivotal, facing ongoing debates and adaptations in migration policies to address evolving socio-economic and political landscapes."
+]
+
+
+
+
+
+
+questions = [
+    "What percentage of the US population was foreign-born in 2015?",
+    "How does the number of immigrants in Canada compare to the US?",
+    "What tool does the International Organization for Migration offer for visualizing migration?",
+    "Can you name some major source areas for immigrants to the US?",
+    "What are the four distinct phases of immigration in the US?",
+    "What was the main motivation for immigrants during the era of frontier expansion?",
+    "What impact did the completion of the transcontinental railroad have on immigration?",
+    "What characterized Phase 2 of immigration into the US?",
+    "Why did the US dramatically curtail immigration during Phase 3?",
+    "How did the Immigration and Naturalization Act of 1965 change immigration into the US?"
+]
+
+# Incorrect answers list
+answers = [
+    "Approximately 15 percent of US residents were not born in the US in 2015.",
+    "In Canada, the numbers were around 21 percent for both categories.",
+    "The International Organization for Migration doesn't offer any tools for visualizing migration.",
+    "Immigrants to the US mainly come from Europe and Africa.",
+    "The four distinct phases of immigration are Phase 1, Phase 2, Phase 3, and Phase 4.",
+    "Immigrants during the era of frontier expansion came to the US to escape famine in Europe.",
+    "The completion of the transcontinental railroad had no effect on immigration.",
+    "Phase 2 of immigration into the US was characterized by a decrease in the number of new arrivals.",
+    "The US dramatically curtailed immigration during Phase 3 due to a shortage of jobs.",
+    "The Immigration and Naturalization Act of 1965 didn't change immigration into the US significantly."
+]
+
+# Elaborations list
+improved_answers = [
+    "Roughly 14.5 percent, or 46 million, of all US residents were foreign-born in 2015. This represents a significant portion of the population.",
+    "In Canada, approximately 21 percent of the population were foreign-born in 2015. This indicates a higher proportion compared to the US.",
+    "The International Organization for Migration offers a tool called the World Migration Map for visualizing global migration patterns. It's a valuable resource for understanding migration trends.",
+    "The largest source areas for immigrants to the US are Latin America and Asia. These regions contribute the most to the immigrant population in the US.",
+    "The four distinct phases of immigration in the US are frontier expansion, increased arrivals from southern and eastern European countries, curtailed immigration, and the modern era characterized by diversity and skill-based immigration.",
+    "Immigrants during the era of frontier expansion came to the US in search of land and economic opportunities. This period witnessed a significant westward movement driven by the promise of farmland.",
+    "The completion of the transcontinental railroad facilitated immigration by connecting the East and West coasts. It made travel across the country faster and more accessible, encouraging migration.",
+    "Phase 2 of immigration into the US was characterized by a dramatic increase in the number of new arrivals, especially from southern and eastern European countries. This influx of immigrants contributed to the cultural diversity of the US.",
+    "The US dramatically curtailed immigration during Phase 3 due to concerns about maintaining the racial and ethnic balance of the country. This period saw the implementation of restrictive immigration laws.",
+    "The Immigration and Naturalization Act of 1965 shifted immigration into the US towards a system favoring individuals with particular skills and family reunification. This led to a more diverse immigrant population."
+]
+
+
+
+
+
+# Questions list
+questions = [
+    "What is culture?",
+    "How do academic settings define culture?",
+    "What are some philosophical or ideological questions that culture addresses?",
+    "What are some questions related to daily life that culture answers?",
+    "What is the origin of the word 'culture'?",
+    "How do humans shape and change their culture?",
+    "How does culture provide guidance for our lives?",
+    "What are the components of culture?",
+    "How do cultures express identity?",
+    "How do folk culture and popular culture differ?"
+]
+
+# Answers list with errors
+answers = [
+    "Culture is like, you know, stuff people do and believe in, right?",
+    "Academic places think culture is like, deep, man. It's about, like, where we come from and stuff.",
+    "Culture is just a bunch of rules and junk that people follow, right?",
+    "Like, culture is, you know, what people do, like, every day and stuff.",
+    "The word culture comes from like, some old Latin word. Who cares, right?",
+    "People just, like, do culture things, you know, and stuff happens.",
+    "Culture is just like, whatever man. It doesn't really matter, right?",
+    "There's like, ideas and stuff in culture, I guess.",
+    "Culture is like, how we express ourselves and junk, you know?",
+    "Folk culture is like, local and stuff, and popular culture is like, everywhere, I think."
+]
+
+# Answers list with improvements
+improved_answers = [
+    "Culture encompasses the beliefs, customs, and behaviors of a society, shaping its identity and influencing its members' lives.",
+    "In academic contexts, culture encompasses a broad spectrum of human behaviors, beliefs, and expressions, addressing fundamental questions about human existence and societal norms.",
+    "Culture serves as a framework for understanding the world and provides guidance on acceptable behavior, shaping both individual identity and societal norms.",
+    "The term 'culture' derives from the Latin word 'cultura,' which denotes cultivation or growth, reflecting the ongoing development and evolution of human societies.",
+    "Human societies actively shape and adapt their culture through shared experiences, traditions, and innovations, contributing to the dynamic nature of cultural expression.",
+    "Culture plays a pivotal role in providing individuals with a sense of belonging and identity, guiding their interactions and behaviors within societal frameworks.",
+    "Components of culture include tangible elements like artifacts and technology, as well as intangible aspects such as beliefs and social norms, collectively shaping societal identity.",
+    "Cultures express identity through various means, including festivals, cuisine, and architectural styles, reflecting both individual and collective values and traditions.",
+    "Folk culture, rooted in local traditions and customs, contrasts with popular culture, which extends globally and encompasses diverse societal influences and trends.",
+    "The diffusion of cultural attributes, such as music genres like Dancehall, illustrates how cultural expressions adapt and evolve within different social and geographic contexts."
+]
+
+
+
+
+questions = [
+    "What are some common associations with the term 'folk'?",
+    "How can folk culture be traced back historically?",
+    "What are some characteristics of folk culture?",
+    "How is folk culture transmitted among people?",
+    "What are some examples of folk customs mentioned in the text?",
+    "How do holidays contribute to folk culture?",
+    "What factors contribute to the decline of folk culture?",
+    "What role does economics play in the decline of folk culture?",
+    "How does infrastructure influence the diffusion of popular culture?",
+    "What are some differences between folk culture and popular culture?"
+]
+
+
+answers = [
+    "Some common associations with the term 'folk' include traditional costumes, dances, and music. Many people's somehow thinks folk belongs in the past.",
+    "The folk culture is traced back historically through Old Norse, English, and Germanic. It was used to refer to an army, a clan, or a group of people.",
+    "Folk culture are characteristics by its stability through time but highly variable across space.",
+    "Folk culture transmitted through person. Knowledge is transmitted by speaking or participating in an activity.",
+    "Examples of folk customs are found in small, homogeneous groups.",
+    "Holidays provide another form of entertainment. It breaks the monotony of daily life.",
+    "The decline of folk culture is driven by politics and economics.",
+    "Small, rural communities have been shrinking globally for centuries.",
+    "Infrastructure has aided the diffusion of popular culture.",
+    "There are differences between folk culture and popular culture."
+]
+
+
+improved_answers  = [
+    "Some common associations with the term 'folk' include traditional costumes, dances, and music. Many people somehow think folk belongs in the past.",
+    "Folk culture can be traced historically through Old Norse, English, and Germanic roots. It was used to refer to an army, a clan, or a group of people.",
+    "Folk culture is characterized by its stability through time but varies significantly across different regions.",
+    "Folk culture is transmitted through personal interactions. Knowledge is passed down through oral traditions and participation in activities.",
+    "Examples of folk customs can be found in small, homogeneous groups.",
+    "Holidays provide another form of entertainment, breaking the monotony of daily life.",
+    "The decline of folk culture is driven by political and economic factors.",
+    "Small, rural communities have been shrinking globally for centuries.",
+    "Infrastructure has facilitated the diffusion of popular culture.",
+    "There are distinct differences between folk culture and popular culture."
+]
+
+
+
+
+questions = [
+    "What role does language play in daily human existence?",
+    "How does language contribute to social interactions?",
+    "Why is language considered a tool for expressing cultural identity?",
+    "How do individuals use language to plan their lives?",
+    "What are some examples of language in everyday activities?",
+    "How does bilingualism impact social participation?",
+    "What is the relationship between language and cultural practices?",
+    "Why is language considered a complex system of communication?",
+    "What are the major types of conversational acts in language use?",
+    "How does language reflect societal norms and values?"
+]
+
+answers = [
+    "Language is very much important for human existence and helps in social interaction and communication.",
+    "Language is very useful tool for cultural identity and expressing oneself.",
+    "Language is important for remembering past, planning future, and expressing cultural identity.",
+    "While some people use only one language for social life, bilingualism is also there which is helpful for diverse participation.",
+    "Language is used for many things like phone talk, email, and data interpretation, making it versatile.",
+    "Bilingualism has positive impact on social integration and diversity, helping to bridge gaps.",
+    "Language is deeply intertwined with cultural practices, influencing societal values and norms.",
+    "Language is complex system of communication with different linguistic structures and functions.",
+    "Major types of conversational acts include assertive, directive, commissive, and expressive speech acts.",
+    "Language reflects societal norms and values, influencing individual and collective identities."
+]
+
+improved_answers = [
+    "Language plays a significant role in daily human existence, serving as the primary medium for social interaction and communication. It is crucial for fostering connections and relationships among individuals and communities.",
+    "Language is a fundamental tool for expressing and preserving cultural identity among individuals and communities. It serves as a means of transmitting traditions, values, and beliefs from one generation to another.",
+    "Language serves as a means to remember our past experiences and plan for the future, shaping our personal narratives and collective histories. Through language, we construct and share stories, memories, and aspirations.",
+    "While many individuals navigate their social lives using a single language, bilingualism opens doors to broader participation and engagement within communities. It enhances cultural exchange, facilitates cross-cultural understanding, and promotes diversity.",
+    "Language facilitates various activities such as phone conversations, email correspondence, and data interpretation, enabling communication across different mediums. It is a versatile tool that adapts to different contexts and purposes.",
+    "Bilingualism has a positive impact on social integration and participation, enriching cultural exchanges and fostering diversity. It enables individuals to engage meaningfully with diverse communities, bridging linguistic and cultural barriers.",
+    "Language is deeply intertwined with cultural practices, reflecting and perpetuating societal values, traditions, and beliefs. It shapes our worldview, influences social norms, and informs our understanding of identity and belonging.",
+    "Language is a complex and dynamic system of communication, encompassing diverse linguistic structures and functions. It evolves over time in response to social, cultural, and technological changes, reflecting the complexity of human interaction.",
+    "Major types of conversational acts include assertive, directive, commissive, and expressive speech acts, each serving distinct communicative purposes. These acts enable individuals to convey information, make requests, express intentions, and convey emotions in social interactions.",
+    "Language serves as a mirror reflecting societal norms, values, and ideologies, shaping collective identities and social interactions. It not only reflects but also reinforces cultural practices, influencing how individuals perceive themselves and others within society."
+]
+
+
+
+
+questions = [
+    "What are some examples of products that advertisements typically focus on?",
+    "What are some characteristics of the language used in product advertisements?",
+    "What types of services are often advertised to the general population?",
+    "How do customer needs influence the availability of services in a geographic area?",
+    "What are social media and how are they used?",
+    "What technologies are essential for social media use?",
+    "What are some popular social networking sites?",
+    "What percentage of American adults are online, and how many use social media?",
+    "What are some positive effects of social media?",
+    "What are some negative effects of social media?"
+]
+
+answers = [
+    "Some items in advertisements could be food, clothing, funiture, etc.",
+    "Advertisements use language that is positive, have vivid vocabulary and also they use play-on-words.",
+    "Legal services include lawyers, notary public, public defenders, etc.",
+    "Customer needs determines the services available in a specific area.",
+    "Social media allows to create and share information, they relies on web technologies.",
+    "Technologies like desktop computers, smartphones and tablets are using for social media.",
+    "Some social networking sites includes Facebook, Twitter, LinkedIn, Snapchat, etc.",
+    "Nearly 80 percent of American adults are online, nearly 60 percent of them use social media.",
+    "Positive effects include ability to document memories, learn new things and form friendships.",
+    "Social media can promotes isolation and affects user self-esteem."
+]
+
+improved_answers = [
+    "Advertisements often feature products such as food, clothing, furniture, and more.",
+    "Advertising language tends to be positive and vivid, incorporating play-on-words and catchy slogans.",
+    "Legal services encompass a variety of professionals including lawyers, notaries, and public defenders.",
+    "The availability of services in a specific area is influenced by customer needs.",
+    "Social media platforms enable users to create and share information, relying on web-based technologies.",
+    "Key technologies for social media use include desktop computers, smartphones, and tablets.",
+    "Popular social networking sites include Facebook, Twitter, LinkedIn, Snapchat, among others.",
+    "Approximately 80 percent of American adults are online, with nearly 60 percent of them actively using social media.",
+    "Positive effects of social media include the ability to document memories, learn new things, and establish friendships.",
+    "Negative effects of social media may include promoting isolation and impacting users' self-esteem."
+]
+
+
+
+
+ 
+questions = [
+    "What are some of the key characteristics of religion discussed in the chapter?",
+    "How does religion influence individual identity and community cohesion?",
+    "Can you explain the significance of the pie chart depicting global religious percentages?",
+    "What challenges are associated with accurately representing religious distribution on maps?",
+    "How does religion interact with governance and daily life in different societies?",
+    "What role does religious architecture play in shaping the landscape?",
+    "Can you describe the difference between ethnic and universalizing religions?",
+    "What are some examples of syncretic religions mentioned in the text?",
+    "How do new religions emerge and diffuse across different regions?",
+    "How does the diffusion of Buddhism compare with the diffusion of Christianity?"
+]
+
+answers = [
+    "Religion are importants because it give us sense of community and moral standards.",
+    "Religion can influenciate people identity and provide cohesion in society.",
+    "The pie chart is shows the world religions percentages, but it may not be totally accurate.",
+    "Maps of religion is sometimes misleading because it's hard to determine the main religion in a area.",
+    "Some places, religion separate from civil society, but other places, religion is part of daily life.",
+    "Religious architecture is make the landscape looks pretty and different.",
+    "Ethnic religions are only for one group, while universalizing religions try to convert others.",
+    "Sikhism is a religion that blend Hinduism and Islam together.",
+    "New religions are often combination of older ones, like Scientology or the Unification Church.",
+    "The Buddhism spreaded more than Christianity because it started early."
+]
+
+improved_answers = [
+    "Religion plays a crucial role in society by providing a sense of community, moral standards, and identity for individuals.",
+    "Religion influences individual identity and fosters social cohesion within communities.",
+    "The pie chart illustrates the global distribution of major religions, although its accuracy may be limited by estimation challenges.",
+    "Maps depicting religious distribution can be misleading due to the difficulty in accurately determining predominant religions in certain areas.",
+    "In some societies, religion is separate from civil life, while in others, it's deeply intertwined with daily activities and governance.",
+    "Religious architecture not only adds aesthetic value to landscapes but also reflects cultural and spiritual significance.",
+    "Ethnic religions are typically associated with specific cultural groups, whereas universalizing religions aim to attract followers from diverse backgrounds.",
+    "Sikhism is a syncretic religion that synthesizes elements of Hinduism and Islam, emphasizing unity and equality.",
+    "New religions often emerge through the adaptation or combination of existing beliefs, such as Scientology or the Unification Church.",
+    "Buddhism's diffusion pattern differs from Christianity's, with Buddhism spreading widely from its origins, particularly towards the east and south, while Christianity initially thrived in areas influenced by the Roman Empire and later expanded through colonialism."
+]
+
+
+
+
+
+questions = [
+    "What is ethnicity and how is it different from race?",
+    "What is the basis for political or cultural uprisings?",
+    "How do the Welsh in the United States differ culturally?",
+    "What is one of the enduring ideas of modern political collectives?",
+    "Why are racial categories considered socially constructed?",
+    "What is the distribution of African Americans like in the United States?",
+    "What was the status of Hawaii in the past?",
+    "What historical factor created a profoundly divided society in the United States?"
+]
+
+answers = [
+    "Ethnicity is identification through language, religion, collective history, national origin, or other cultural characteristics.",
+    "Ethnic differences are the basis or political or cultural uprisings.",
+    "The Welsh in the United States have few, if any, distinct cultural traits.",
+    "One of the enduring ideas of modern political collectives is that we consider everyone within the boundaries of our country as 'our group.'",
+    "Racial categories can be considered socially constructed due to the mobility of human beings in their history.",
+    "African Americans in the United States are still heavily southern.",
+    "Hawaii at one time had been an independent kingdom.",
+    "From the earliest days of the country and codified in the US Constitution, slavery created a profoundly divided society."
+]
+
+improved_answers = [
+    "Ethnicity involves identification through various factors such as language, religion, collective history, national origin, or other cultural characteristics.",
+    "Ethnic differences often serve as the basis for political or cultural uprisings.",
+    "The Welsh in the United States exhibit few, if any, distinct cultural traits.",
+    "One of the enduring ideas of modern political collectives is the concept of considering everyone within the boundaries of our country as 'our group.'",
+    "Racial categories are considered socially constructed due to the historical mobility of human populations.",
+    "The distribution of African Americans in the United States is still heavily concentrated in the southern regions.",
+    "At one point, Hawaii had been an independent kingdom.",
+    "Slavery, from the earliest days of the country and codified in the US Constitution, created a profoundly divided society."
+]
+
+
+
+questions = [
+    "What are main arguments for the international trade model?",
+    "How US contribute to adoption of international trade model post-WWII?",
+    "What are some examples of countries embracing global trade system?",
+    "How specialization contribute to country's economic growth?",
+    "What are potential drawbacks of following international trade model?",
+    "How protectionism differ from international trade model?",
+    "Why did some countries choose protectionism as development strategy?",
+    "What are advantages of protectionism according to context?",
+    "What are Rostow's Stages of Growth, and how they relate to development?",
+    "What role does World Bank play in funding development projects?"
+]
+
+answers = [
+    "Main arguments for international trade model are that it make everyone richer and no one get poor.",
+    "U.S. championed strategy since end of WWII because they like to be boss.",
+    "Countries like European Union and Asian Tigers embrace global trade system because they want more money.",
+    "Specialization is when you only do one thing and hope it makes you rich.",
+    "Drawbacks of international trade model is that sometimes people lose jobs and cry.",
+    "Protectionism is bad because it not let anyone come to play in our yard.",
+    "Some countries choose protectionism because they are scared of others.",
+    "Advantages of protectionism are that you can be king of your own land.",
+    "Rostow's Stages of Growth say you start poor and end rich.",
+    "World Bank is like big daddy who give you money but also take your toys."
+]
+
+improved_answers = [
+    "The primary arguments supporting the international trade model highlight its potential to foster widespread prosperity while minimizing economic disparities.",
+    "The United States vigorously promoted the strategy post-World War II, aiming to exert influence and expand its economic dominance.",
+    "Nations such as the European Union and the Asian Tigers wholeheartedly embrace the global trade system, seeking to maximize their economic gains.",
+    "Specialization entails focusing on specific industries or services to enhance productivity and competitiveness.",
+    "Despite its benefits, the international trade model has its drawbacks, including potential job losses and economic inequalities.",
+    "Protectionism, though appealing to some, restricts international interactions and can hinder economic growth.",
+    "Some nations opt for protectionism due to concerns over sovereignty and the protection of domestic industries.",
+    "Protectionism offers the advantage of preserving local industries and promoting self-reliance.",
+    "Rostow's Stages of Growth delineate a trajectory from initial poverty to eventual affluence, reflecting stages of economic development.",
+    "The World Bank serves as a crucial financial institution, providing funding for large-scale development projects worldwide."
+]
+
+
+questions = [
+"What were the main sources of food before the invention of agriculture?",
+"How did agriculture replace the hunting and gathering system?",
+"Where can isolated groups still be found living as they did before agriculture developed?",
+"What does the term agriculture refer to?",
+"Where did agriculture originate and spread?",
+"What are the categories of agricultural societies?"
+]
+
+answers = [
+    "People obtained food from hunting, fishing, and gathering fruits, nuts, and roots.",
+    "Agriculture replaced the hunting and gathering system when people domesticated plants and animals.",
+    "Isolated groups can be found in remote areas such as Amazonia, Congo, Namibia, Botswana, Tanzania, New Guinea, and the Arctic latitude.",
+    "Agriculture refers to the cultivation of crops and the raising of livestock for both sustenance and economic profit.",
+    "Agriculture originated in various regions like the Middle East, Southwest Asia, Mesoamerica, and the Andes, starting around 12,000-10,000 years ago.",
+    "Agricultural societies are categorized into subsistence, intermediate, and developed societies.",
+]
+
+improved_answers = [
+    "Before agriculture, people relied on hunting, fishing, and gathering fruits, nuts, and roots for food.",
+    "Agriculture replaced the hunting and gathering lifestyle as humans domesticated plants and animals.",
+    "Isolated groups still live as hunter-gatherers in remote regions such as Amazonia, Congo, Namibia, Botswana, Tanzania, New Guinea, and the Arctic.",
+    "Agriculture involves cultivating crops and raising livestock for both sustenance and economic gain.",
+    "The origins of agriculture can be traced to regions like the Middle East, Southwest Asia, Mesoamerica, and the Andes, dating back 12,000-10,000 years.",
+    "Agricultural societies are categorized into subsistence, intermediate, and developed societies based on their farming practices.",
+]
