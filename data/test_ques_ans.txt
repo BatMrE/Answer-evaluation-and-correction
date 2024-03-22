@@ -1,0 +1,64 @@
+new_questions = [
+    "What percentage the US population was born foreign in 2015?",
+    "How the immigrants in Canada compare to the US?",
+    "What tool the International Organization for Migration offers to visualize migration?",
+    "Can you some major source areas for immigrants to the US?",
+    "What the four distinct phases of immigration in the US?",
+    "What the main motivation for immigrants during the era of frontier expansion?",
+    "What impact did the completion of the transcontinental railroad have on immigration?",
+    "What characterized Phase 2 of immigration into the US?",
+    "Why the US dramatically curtail immigration during Phase 3?",
+    "How the Immigration and Naturalization Act of 1965 change immigration into the US?"
+    "What are some examples of product that advertisements typically focus on?",
+    "What are some characteristic of the language used in product advertisement?",
+    "What type of service are often advertised to the general population?",
+    "How do customer need influence the availability of service in a geographic area?",
+    "What are social media and how they use?",
+    "What technology are essential for social media used?",
+    "What are some popular social networking site?",
+    "What percentage of American adult are online, and how many use social media?",
+    "What are some positive effect of social media?",
+    "What are some negative effect of social media?"
+    "What is ethnicity and how is it different from race?",
+    "What is the basis for political or cultural uprising?",
+    "How do the Welsh in the United States differ cultural?",
+    "What is one of the enduring idea of modern political collective?",
+    "Why are racial category considered socially construct?",
+    "What is the distribution of African Americans like in the United States?",
+    "What was the status of Hawaii in the past?",
+    "What historical factor create a profoundly divided society in the United States?"
+]
+
+
+improper_elaborated_answers = [
+    "Like, approximately 15 percent of US residents were not born in the US in 2015. It's like, a big number, you know?",
+    "So, in Canada, the numbers were around 21 percent for both categories. Yeah, it's like, similar to the US.",
+    "The International Organization for Migration, they like, don't offer any tools for visualizing migration. It's like, not helpful, you know?",
+    "Immigrants to the US, they mainly come from Europe and Africa, you know? It's like, diverse and stuff.",
+    "So, the four distinct phases of immigration are Phase 1, Phase 2, Phase 3, and Phase 4. It's like, a lot of phases, you know?",
+    "Immigrants during the era of frontier expansion, they came to the US to escape famine in Europe. It was like, a big problem back then, you know?",
+    "The completion of the transcontinental railroad, it had like, no effect on immigration. It's like, surprising, right?",
+    "Phase 2 of immigration into the US, it was like, characterized by a decrease in the number of new arrivals. Yeah, it's like, a slowdown, you know?",
+    "So, the US dramatically curtailed immigration during Phase 3 due to like, a shortage of jobs. It was like, a tough time for immigrants, you know?",
+    "The Immigration and Naturalization Act of 1965, it like, didn't change immigration into the US significantly. Yeah, it's like, not a big deal.",
+    "Some items in advertisement could be food, clothing, funiture, etc. Advertisements often show these products to attract customers.",
+    "Advertisement use language that is positive, have vivid vocabulary and also they use play-on-words. The language is designed to catch people's attention and make them interested in the product.",
+    "Legal service include lawyers, notary public, public defender, etc. These professionals provide legal assistance to individuals in various situations.",
+    "Customer need determines the service available in a specific area. Businesses offer services based on what customers want and require in their local area.",
+    "Social media allow to create and share information, they relies on web technologies. People use social media platforms to communicate, share content, and connect with others around the world.",
+    "Technologies like desktop computers, smartphone and tablet are using for social media. These devices are essential for accessing social media platforms and interacting with others online.",
+    "Some social networking site include Facebook, Twitter, LinkedIn, Snapchat, etc. These platforms allow users to connect with friends, share updates, and discover new content.",
+    "Nearly 80 percent of American adult are online, nearly 60 percent of them use social media. This shows that a large percentage of the population is active on the internet and social media platforms.",
+    "Positive effect include ability to document memories, learn new thing and form friendships. Social media enables users to capture moments, gain knowledge, and build relationships.",
+    "Social media can promotes isolation and affect user self-esteem. Excessive use of social media may lead to feelings of loneliness and impact individuals' self-confidence negatively.",
+    "Ethnicity is identification through language, religion, collective history, national origin, or other cultural characteristic. It defines individuals based on their cultural backgrounds and heritage.",
+    "Ethnic difference are the basis or political or cultural uprising. Variations in ethnicity often serve as catalysts for political or cultural unrest.",
+    "The Welsh in the United States have few, if any, distinct cultural traits. The Welsh-American community may have limited cultural distinctions compared to other ethnic groups.",
+    "One of the enduring idea of modern political collective is that we consider everyone within the boundaries of our country as 'our group.' This enduring concept implies that all individuals within a nation are part of a unified collective.",
+    "Racial category can be consider socially constructed due to the mobility of human beings in their history. Categories based on race are socially constructed due to historical population movements.",
+    "African Americans in the United States are still heavily southern. The majority of African Americans reside in the southern regions of the United States.",
+    "Hawaii at one time had been an independent kingdom. Historically, Hawaii existed as an independent kingdom at a certain period in time.",
+    "From the earliest days of the country and codify in the US Constitution, slavery created a profoundly divided society. Slavery, enshrined in the US Constitution from its inception, led to significant social divisions within society."
+
+
+]
